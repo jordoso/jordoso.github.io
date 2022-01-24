@@ -1,0 +1,68 @@
+/*
+dark mode:https://coolors.co/335c67-138a36-c8c6d7-b26e63-540b0e
+light mode:https://coolors.co/fde74c-ea526f-058ed9-8eedf7-e4c1f9
+ugly mode:https://coolors.co/8cb369-000000-f4a259-666b6a-bc4b51
+*/
+
+html{
+	height:100%;
+}
+
+body{
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+main{
+	border:3px solid black;
+	background-color:yellow;
+	width:700px;
+	height:500px;
+	display:grid;
+	grid-template-rows:1fr 6fr;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+}
+
+#menu > input{
+	background-color:green;
+	color:maroon;
+	font-size:16pt;
+	border-radius:20px;
+}
+
+#menu > input:hover{
+	color:blue;
+	Background-color:red;
+}
+
+#modes{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	padding:10px;
+}
+
+#modes > input{
+	background-color:green;
+	color:maroon;
+	font-size:16pt;
+	border-radius:20px;
+}
+
+#modes > input:hover{
+	color:blue;
+	Background-color:red;
+}
+
+section{
+	border:3px solid red;
+	border-radius:20px;
+	padding:10px;
+	background-color:aliceblue;
+}
